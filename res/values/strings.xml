@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fishing poll</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="new_user">Create New Account</string>
+    <string name="user_name">User Name</string>
+    <string name="launch_name_taken">Sorry, but that username is already taken!</string>
+    <string name="login_password_doesnt_match">Passwords don\'t match!</string>
+    <string name="pass_word">********</string>
+    <string name="pass_word_check">Verify Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="account_name_title">Title</string>
+    <string name="account_name_first">First Name</string>
+    <string name="account_name_middle">Middle Name</string>
+    <string name="account_name_last">Last Name</string>
+    <string name="account_name_suffix">Suffix</string>
+    <string name="skip">Maybe Later</string>
+
+    <string-array name="list_roles">
+        <item>Fisher</item>
+        <item>Merchant</item>
+        <item>Scientist</item>
+    </string-array>
+
+    <string name="fisher_name">Name</string>
+    <string name="fisher_vessel_type">Vessel Type</string>
+    <string name="fisher_vessel_motor_brand">Vessel Motor (brand)</string>
+    <string name="fisher_vessel_motor_size">Vessel Motor (Hp)</string>
+    <string name="fisher_vessel_height">Vessel Height</string>
+    <string name="fisher_vessel_length">Vessel Length</string>
+    <string name="fisher_vessel_width">Vessel Width</string>
+    <string name="fisher_vessel_gear">Vessel Gear</string>
+    <string name="merchant_name">Name</string>
+    <string name="merchant_city">City</string>
+    <string name="merchant_country">Country</string>
+    <string name="merchant_phone">Phone</string>
+    <string name="merchant_address1">Address 1</string>
+    <string name="merchant_address2">Address 2</string>
+    <string name="merchant_postal_code">Postal Code</string>
+    <string name="merchant_province">State</string>
+    <string name="scientist_name">Name</string>
+
+    <string name="organization">Organization</string>
+    <string name="title">Title</string>
+    <string name="division">Division</string>
+
+    <string-array name="preferences_scale_bar_unit_values">
+        <item>Imperial</item>
+        <item>Metric</item>
+    </string-array>
+    <string-array name="preferences_text_scale_values">
+        <item>tiny</item>
+        <item>small</item>
+        <item>normal</item>
+        <item>large</item>
+        <item>huge</item>
+    </string-array>
+
+    <string name="application_name">AdvancedMapViewer</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">Error</string>
+    <string name="error_last_location_unknown">The last location is unknown</string>
+    <string name="file_invalid">The selected file is invalid.</string>
+    <string name="file_select">Please select a file.</string>
+    <string name="file_size_byte">byte</string>
+    <string name="file_size_bytes">bytes</string>
+    <string name="file_size_kb">kB</string>
+    <string name="file_size_mb">MB</string>
+    <string name="file_size_gb">GB</string>
+    <string name="go_to_position">Go to location</string>
+    <string name="info_map_file_area">Area</string>
+    <string name="info_map_file_comment">Comment</string>
+    <string name="info_map_file_created_by">Created by</string>
+    <string name="info_map_file_date">Date</string>
+    <string name="info_map_file_debug">Debug information</string>
+    <string name="info_map_file_debug_no">not included</string>
+    <string name="info_map_file_debug_yes">included</string>
+    <string name="info_map_file_language_preference">Language preference</string>
+    <string name="info_map_file_name">File</string>
+    <string name="info_map_file_size">File size</string>
+    <string name="info_map_file_start_position">Start location</string>
+    <string name="info_map_file_start_zoom_level">Start zoom level</string>
+    <string name="info_map_file_version">Version</string>
+    <string name="intent_pick_avatar">Select Picture</string>
+    <string name="interests_system">PPPin</string>
+    <string name="interests_alert">Alert</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="menu_development">Develop</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_info_map_file">Map file properties</string>
+    <string name="menu_info_about">About PPPin…</string>
+    <string name="menu_log_in_or_register">Log In or Sign Up</string>
+    <string name="menu_log_out">Log Out</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_map_download_file">Download map file</string>
+    <string name="menu_map_file_center">Map file center</string>
+    <string name="menu_map_file_info">Map file properties</string>
+    <string name="menu_map_internal">Use built-in map</string>
+    <string name="menu_map_select_file">Select map file</string>
+    <string name="menu_position">Location</string>
+    <string name="menu_position_enter_coordinates">Enter coordinates</string>
+    <string name="menu_position_last_known">Last known location</string>
+    <string name="menu_position_map_file_center">Map file center</string>
+    <string name="menu_position_my_location_enable">Show my location</string>
+    <string name="menu_position_my_location_disable">Remove my location</string>
+    <string name="menu_preferences">Settings</string>
+    <string name="menu_render_theme">Render theme</string>
+    <string name="menu_render_theme_bare">Default</string>
+    <string name="menu_render_theme_mondimondi">Mondi, Mondi</string>
+    <string name="menu_render_theme_osmarender">Osmarender</string>
+    <string name="menu_render_theme_select_file">Select XML file …</string>
+    <string name="menu_screenshot">Screenshot</string>
+    <string name="menu_screenshot_jpeg">JPEG (lossy)</string>
+    <string name="menu_screenshot_png">PNG (lossless)</string>
+    <string name="no_location_provider_available">No location source available</string>
+    <string name="ok">OK</string>
+    <string name="preferences_debug">Debug settings</string>
+    <string name="preferences_general">General settings</string>
+    <string name="preferences_cache_persistence">Cache persistence</string>
+    <string name="preferences_cache_persistence_desc">Keep cached images on exit</string>
+    <string name="preferences_cache_size">External storage</string>
+    <string name="preferences_cache_size_desc">Adjust the size of the cache</string>
+    <string name="preferences_cache_size_value">%.1f MB</string>
+    <string name="preferences_fullscreen">Full screen mode</string>
+    <string name="preferences_fullscreen_desc">Hide the status bar</string>
+    <string name="preferences_interests_accept">Save and Return</string>
+    <string name="preferences_interests_add">Add Interest</string>
+    <string name="preferences_interests_delete">Delete Interest</string>
+    <string name="preferences_interests_editing_cancel">Cancel</string>
+    <string name="preferences_map">Map settings</string>
+    <string name="preferences_move_speed">Move speed</string>
+    <string name="preferences_move_speed_desc">Adjust the move speed of the map</string>
+    <string name="preferences_move_speed_value">%d %% move speed</string>
+    <string name="preferences_scale_bar_unit">Scale bar unit</string>
+    <string name="preferences_scale_bar_unit_desc">Select the unit for the map scale bar</string>
+    <string name="preferences_show_fps_counter">Frame rate</string>
+    <string name="preferences_show_fps_counter_desc">Enable frames per second counter</string>
+    <string name="preferences_show_scale_bar">Map scale bar</string>
+    <string name="preferences_show_scale_bar_desc">Show the scale of the map</string>
+    <string name="preferences_show_tile_coordinates">Tile coordinates</string>
+    <string name="preferences_show_tile_coordinates_desc">Show coordinates on tiles</string>
+    <string name="preferences_show_tile_frames">Tile boundaries</string>
+    <string name="preferences_show_tile_frames_desc">Draw tile boundaries</string>
+    <string name="preferences_show_water_tiles">Water tiles</string>
+    <string name="preferences_show_water_tiles_desc">Highlight tiles which have the water flag set</string>
+    <string name="preferences_text_scale">Font size</string>
+    <string name="preferences_text_scale_desc">Select the text size of map labels</string>
+    <string name="preferences_user">User settings</string>
+    <string name="preferences_user_account">Account</string>
+    <string name="preferences_user_account_desc">Change account settings</string>
+    <string name="preferences_user_interests">Interests</string>
+    <string name="preferences_user_interests_desc">Change interests shown on the map</string>
+    <string name="preferences_wake_lock">Stay awake</string>
+    <string name="preferences_wake_lock_desc">Stop the screen from dimming</string>
+    <string name="save">Save</string>
+    <string name="snap_to_location_enabled">Snap to location is activated</string>
+    <string name="snap_to_location_disabled">Snap to location is disabled</string>
+    <string name="unit_symbol_kilometer">&#160;km</string>
+    <string name="unit_symbol_meter">&#160;m</string>
+    <string name="zoomLevel">Zoom level</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="language_en">English</string>
+    <string name="language_es">Español</string>
+
+    <string-array name="language_list">
+        <item>English</item>
+        <item>Filipino</item>
+    </string-array>
+
+    <string name="account_avatar_desc">Your avatar as provided by a photograph.</string>
+    <string name="profile_avatar_desc">Your avatar as provided by a photograph.</string>
+    <string name="profile_id_type">Identity Type:</string>
+    <string name="profile_id_individual">Person</string>
+    <string name="profile_id_organization">Group</string>
+    <string name="profile_id_preference">Identity Preference:</string>
+    <string name="profile_handle">Handle</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_name_title">Title</string>
+    <string name="profile_name_first">First Name</string>
+    <string name="profile_name_middle">Middle Name</string>
+    <string name="profile_name_last">Last Name</string>
+    <string name="profile_name_suffix">Suffix</string>
+    <string name="profile_name_organization">Organization</string>
+    <string name="profile_bio">Mini Bio</string>
+    <string name="profile_occupation">Occupation</string>
+    <string name="profile_skills">Skills</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

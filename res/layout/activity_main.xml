@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.catchy.fishingpoll.MainActivity"
+    tools:ignore="MergeRootFrame" >
+ 
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ref No."
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+
+	<com.catchy.fishingpoll.PPPinAvatarImageButton
+		android:id="@+id/haul_avatar"
+		android:scaleType="fitCenter"
+		android:layout_width="96dp"
+		android:layout_height="96dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:background="@android:drawable/gallery_thumb"
+		android:contentDescription="@string/account_avatar_desc"
+		/>
+
+	<EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:ems="10" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:ems="10" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:hint="Municipality"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Landing Site"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gear (local)"
+        android:ems="10" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gear (English)"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time set"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date set"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time hauled"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date hauled"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Num hauls"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Num fishers"
+        android:ems="10" >
+
+    </EditText>
+        
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Catch weight"
+        android:ems="10" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:ems="10" >
+
+    </EditText>
+    
+    <Button
+        android:id="@+id/button332"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+    </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

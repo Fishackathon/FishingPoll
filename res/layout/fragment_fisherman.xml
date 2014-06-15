@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.catchy.fishingpoll.LoginActivity$PlaceholderFragment" >
+
+	<EditText
+		android:id="@+id/fisher_vessel_type"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_marginTop="24dp"
+		android:hint="@string/fisher_vessel_type" >
+
+		<requestFocus />
+	</EditText>
+
+	<EditText
+		android:id="@+id/fisher_vessel_motor_brand"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/fisher_vessel_type"
+		android:hint="@string/fisher_vessel_motor_brand" />
+
+	<EditText
+		android:id="@+id/fisher_vessel_motor_size"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/fisher_vessel_motor_brand"
+		android:hint="@string/fisher_vessel_motor_size" />
+
+	<EditText
+		android:id="@+id/fisher_vessel_height"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/fisher_vessel_motor_size"
+		android:hint="@string/fisher_vessel_height" />
+
+	<EditText
+		android:id="@+id/fisher_vessel_length"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/fisher_vessel_height"
+		android:hint="@string/fisher_vessel_length" />
+
+	<EditText
+		android:id="@+id/fisher_vessel_width"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_below="@id/fisher_vessel_length"
+		android:hint="@string/fisher_vessel_width" />
+
+</RelativeLayout>
